@@ -47,17 +47,11 @@ Route::get('/Rentndai',function(){
 Route::get('/vacation',function(){
     return view('ukhubuka.vacation');
 });
-Route::get('/review-form', function () {
-    return view('ukhubhuka.review-form');
-});
+
 Route::get('/contactus', function(){
     return view('ukhubuka.contactus');
 });
-Route::get('/packages', function(){
-    return view('ukhubuka.packages');
-});
-
- Route::get('/thankyou', function () {
+Route::get('/thankyou', function () {
     return view('ukhubuka.thankyou');
 });
 
