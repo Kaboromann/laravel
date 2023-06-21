@@ -38,6 +38,13 @@ Route::get('/data',function(){
 Route::get('/offers',function(){
     return view('offers');
 });
+Route::get('/login',function(){
+    return view('login');
+})->name('login');
+Route::get('/registration',function(){
+    return view('registration');
+})->name('register');
+
 Route:: get ('/reviewsform',function(){
     return view('reviewsform');
 });
@@ -60,6 +67,15 @@ Route::get('/thankyou', function () {
 
 Route::post('submit-review',
  [ReviewController::class, 'reviews']);
+
+ Route::post('/register', 
+ [UserController::class, 'registerUser'])->name('register');
+   
+   Route::post('/login', 
+ [UserController::class, 'loginUser'])->name('login');
+   Route::view('/dashboard','dashboard');
+
+ 
 
 
  
