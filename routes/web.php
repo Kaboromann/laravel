@@ -33,26 +33,26 @@ Route::get('/data',function(){
 
     //{return view('welcome',['para'=>'Hello']);*/
         Route::get('/',function(){
-            return view('ukhubuka.index');
+            return view('index');
         });
 Route::get('/offers',function(){
-    return view('ukhubuka.offers');
+    return view('offers');
 });
 Route:: get ('/reviewsform',function(){
-    return view('ukhubuka.reviewsform');
+    return view('reviewsform');
 });
 Route::get('/Rentndai',function(){
-    return view('ukhubuka.Rentndai');
+    return view('Rentndai');
 });
 Route::get('/vacation',function(){
-    return view('ukhubuka.vacation');
+    return view('vacation');
 });
 
 Route::get('/contactus', function(){
-    return view('ukhubuka.contactus');
+    return view('.contactus');
 });
 Route::get('/thankyou', function () {
-    return view('ukhubuka.thankyou');
+    return view('thankyou');
 });
 
 Route::post("submit-review",
