@@ -47,15 +47,18 @@ Route::get('/Rentndai',function(){
 Route::get('/vacation',function(){
     return view('vacation');
 });
+Route::get('/pracical',function(){
+    return view('pracical');
+});
 
 Route::get('/contactus', function(){
-    return view('.contactus');
+    return view('contactus');
 });
 Route::get('/thankyou', function () {
     return view('thankyou');
 });
 
-Route::post("submit-review",
+Route::post('submit-review',
  [ReviewController::class, 'reviews']);
 
 

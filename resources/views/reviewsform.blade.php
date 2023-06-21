@@ -62,9 +62,8 @@
     <h1>Ukubhuka Review Form</h1>
 
     <form action="submit-review" method="POST">
-        @csrf
-
-        <label for="name">Name:</label>
+       @csrf 
+    <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
 
         <label for="email">Email:</label>
