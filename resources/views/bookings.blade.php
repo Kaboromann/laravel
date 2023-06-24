@@ -5,6 +5,9 @@
     <style>
         body {
             text-align: center;
+            background-image: url("images/kichwa3.jpg"); 
+            background-size: cover;
+            background-position: center;
         }
 
         .booking-form {

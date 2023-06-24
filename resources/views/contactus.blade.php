@@ -10,6 +10,9 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      background-image: url("images/kichwa3.jpg"); 
+            background-size: cover;
+            background-position: center;
     }
 
     header {

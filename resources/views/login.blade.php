@@ -8,6 +8,9 @@
       background-color: #f5f5f5;
       margin: 0;
       padding: 0;
+      background-image: url("images/kichwa3.jpg"); 
+            background-size: cover;
+            background-position: center;
     }
 
     .container {
