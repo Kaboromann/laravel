@@ -91,7 +91,7 @@ body {
 <div class="w3-half w3-container" id="">
   <div class="w3-topbar w3-border-amber">
     <img src="images/picha ya tourist.jpg" style="width:50%">
-    <a href="/offers"><button type="" class="btn">Amazing Offers</button></a>
+    <a href="/packages"><button type="" class="btn">Our Packages</button></a>
     <p>Suprising to make you think twice</p>
   </div>
 </div>

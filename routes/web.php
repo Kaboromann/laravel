@@ -67,6 +67,9 @@ Route::get('/thankyou', function () {
 Route::get('/packages', function(){
     return view('packages');
 });
+Route::get('/bookings', function(){
+    return view('bookings');
+});
 
 Route::post('submit-review',
  [ReviewController::class, 'reviews']);

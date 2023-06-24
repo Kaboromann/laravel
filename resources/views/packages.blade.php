@@ -3,6 +3,13 @@
 <head>
     <title>Travel Packages</title>
     <style>
+        body {
+            text-align: center;
+            background-image: url("images/kichwa3.jpg"); 
+            background-size: cover;
+            background-position: center;
+        }
+
         .packages-container {
             display: flex;
             justify-content: space-between;
@@ -19,7 +26,7 @@
             margin-bottom: 20px;
             transition: transform 0.3s ease;
             cursor: pointer;
-            background-color: #ffc107; /* Add the background color */
+            background-color: #ffc107;
         }
 
         .package:hover {
@@ -44,7 +51,7 @@
             <p>Duration: 7 days</p>
             <p>Price: $1000</p>
             <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <a href="#">Book Now</a>
+            <a href="/bookings">Book Now</a>
         </div>
 
         <div class="package">
@@ -53,7 +60,7 @@
             <p>Duration: 10 days</p>
             <p>Price: $2000</p>
             <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <a href="#">Book Now</a>
+            <a href="/bookings">Book Now</a>
         </div>
 
         <div class="package">
@@ -62,7 +69,7 @@
             <p>Duration: 14 days</p>
             <p>Price: $5000</p>
             <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <a href="#">Book Now</a>
+            <a href="/bookings">Book Now</a>
         </div>
     </div>
 </body>

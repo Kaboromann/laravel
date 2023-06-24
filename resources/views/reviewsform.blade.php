@@ -6,6 +6,10 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f2f2f2;
+            background-image: url("images/kichwa3.jpg"); 
+            background-size: cover;
+            background-position: center;
+            
         }
 
         h1 {
