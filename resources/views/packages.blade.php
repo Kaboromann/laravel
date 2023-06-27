@@ -47,28 +47,36 @@
     <div class="packages-container">
         <div class="package">
             <h2>Standard Package</h2>
-            <p>Destination: Paris, France</p>
+            <p>Destination: Watamu, Malindi</p>
             <p>Duration: 7 days</p>
-            <p>Price: $1000</p>
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Price: 15,000</p>
+            <p>Description: get to snorkell as you visit the one and only marine park in Watamu</p>
             <a href="/bookings">Book Now</a>
         </div>
 
         <div class="package">
             <h2>Premium Package</h2>
-            <p>Destination: Tokyo, Japan</p>
+            <p>Destination: Maasai Mara, Narok</p>
             <p>Duration: 10 days</p>
-            <p>Price: $2000</p>
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Price: 20,000</p>
+            <p>Description: Get to see one of the seven wonders of the world in action.</p>
             <a href="/bookings">Book Now</a>
         </div>
 
         <div class="package">
             <h2>Platinum Package</h2>
-            <p>Destination: Maldives</p>
+            <p>Destination: Mount Kenya, Meru</p>
             <p>Duration: 14 days</p>
-            <p>Price: $5000</p>
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Price: 30,000</p>
+            <p>Description: Enjoy a one of a kind experience in mount kenya.</p>
+            <a href="/bookings">Book Now</a>
+        </div>
+        <div class="package">
+            <h2>Gold Package</h2>
+            <p>Destination: Diani, Kwale </p>
+            <p>Duration: 30 days</p>
+            <p>Price: 50,000</p>
+            <p>Description: Enjoy a cool breeze while basking on the white beaches in Diani.</p>
             <a href="/bookings">Book Now</a>
         </div>
     </div>

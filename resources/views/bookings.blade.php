@@ -45,12 +45,14 @@
     <h1>Bookings</h1>
 
     <div class="booking-form">
-        <form>
+        <form action="admin.blade.php" method="post">
+            @csrf
             <label for="package">Select Package:</label>
             <select id="package" name="package">
                 <option value="standard">Standard Package</option>
                 <option value="premium">Premium Package</option>
                 <option value="platinum">Platinum Package</option>
+                <option value="gold">Gold Package</option>
             </select>
 
             <label for="name">Your Name:</label>

@@ -8,7 +8,7 @@ use Illuminate\Routing\Controller;
 
 class BookingController extends Controller
 {
-    public function store(Request $request)
+    public function bookings(Request $request)
     {
         $validateData = $request->validate([
             'package' => 'required',
@@ -16,7 +16,8 @@ class BookingController extends Controller
             'email' => 'required|email',
         ]);
         Booking::create($validateData);
-        return redirect()->back()->with('success','Booking successful!!');
+        return redirect('/thankyou');
+        // return redirect()->back()->with('success','Booking successful!!');
     }
 
 }

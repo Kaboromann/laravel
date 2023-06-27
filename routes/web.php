@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BookingController;
 use App\Http\Controllers\ReviewController;
 use App\Models\Flight2;
 use Illuminate\Support\Facades\Route;
@@ -67,6 +68,9 @@ Route::get('/thankyou', function () {
 Route::get('/packages', function(){
     return view('packages');
 });
+Route::post('/admin', function () {
+    return view('admin');
+});
 Route::get('/bookings', function(){
     return view('bookings');
 });
@@ -80,6 +84,12 @@ Route::post('submit-review',
    Route::post('/login', 
  [UserController::class, 'loginUser'])->name('login');
    Route::view('/dashboard','dashboard');
+
+   Route::post('booking-form',
+   [
+    BookingController::class, 'bookings'
+   ]);
+   
 
  
 
