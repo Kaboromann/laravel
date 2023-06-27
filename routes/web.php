@@ -68,7 +68,7 @@ Route::get('/thankyou', function () {
 Route::get('/packages', function(){
     return view('packages');
 });
-Route::post('/admin', function () {
+Route::get('/admin', function () {
     return view('admin');
 });
 Route::get('/bookings', function(){

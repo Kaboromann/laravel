@@ -70,9 +70,9 @@
       <h1>Destinations</h1>
     </header>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+      <a href="/index">Home</a>
+      <a href="/packages">About</a>
+      <a href="/contactus">Contact</a>
     </nav>
     <section>
       <div class="card">

@@ -12,9 +12,9 @@
     <h1>Admin Bookings</h1>
 
     <?php
-    // Retrieve form data
+     //Retrieve form data
     $package = $_POST['package'];
-    $name = $_POST['name'];
+   $name = $_POST['name'];
     $email = $_POST['email'];
 
     // Save form data to a file or database
