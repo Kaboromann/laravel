@@ -45,7 +45,7 @@
     <h1>Bookings</h1>
 
     <div class="booking-form">
-        <form action="admin.blade.php" method="post">
+        <form action="booking-form" method="post">
             @csrf
             <label for="package">Select Package:</label>
             <select id="package" name="package">

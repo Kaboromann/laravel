@@ -70,8 +70,8 @@
       <h1>Destinations</h1>
     </header>
     <nav>
-      <a href="/index">Home</a>
-      <a href="/packages">About</a>
+      <a href="/">Home</a>
+      <a href="/packages">Packages</a>
       <a href="/contactus">Contact</a>
     </nav>
     <section>

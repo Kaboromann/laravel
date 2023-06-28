@@ -9,8 +9,8 @@
       margin: 0;
       padding: 0;
       background-image: url("images/kichwa3.jpg"); 
-            background-size: cover;
-            background-position: center;
+      background-size: cover;
+      background-position: center;
     }
 
     .container {
@@ -95,5 +95,14 @@
       <p>Don't have an account? <a href="{{ '/register' }}">Register</a></p>
     </form>
   </div>
+
+  @if(Session::has('success'))
+  <script>
+    // Redirect to the "packages" page after login success
+    setTimeout(function() {
+      window.location.href = "{{ '/' }}";
+    }, 3000); // Redirect after 3 seconds
+  </script>
+  @endif
 </body>
 </html>

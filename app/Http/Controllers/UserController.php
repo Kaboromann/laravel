@@ -44,7 +44,7 @@ public function loginUser(Request $request)
     if ($user) {
         if (Hash::check($request->password, $user->password)) {
             $request->session()->put('sessionID', $user->user_id);
-            return redirect('/dashboard');
+            return redirect('/packages');
 
         } else {
             return back()->with('fail', 'Invalid Password');

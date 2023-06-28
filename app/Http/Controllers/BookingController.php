@@ -16,7 +16,7 @@ class BookingController extends Controller
             'email' => 'required|email',
         ]);
         Booking::create($validateData);
-        return redirect('/thankyou');
+       // return redirect('/thankyou');
         // return redirect()->back()->with('success','Booking successful!!');
     }
 

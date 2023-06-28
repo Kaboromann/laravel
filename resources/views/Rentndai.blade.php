@@ -61,7 +61,7 @@
     <h1>Rent a Tourist Car</h1>
     <nav>
       <ul>
-        <li><a href="/index">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="/packages">Packages</a></li>
        
         <li><a href="/contactus">Contact Us</a></li>
