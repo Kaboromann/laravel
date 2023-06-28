@@ -9,6 +9,9 @@
     body {
       font-family: Arial, sans-serif;
       background-color:  #fff;
+      background-image: url("images/kichwa3.jpg"); 
+            background-size: cover;
+            background-position: center;
       margin: 0;
       padding: 0;
     }
