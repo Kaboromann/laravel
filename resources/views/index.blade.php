@@ -14,7 +14,7 @@ body {
   
   header {
     background-color: #ffc107;
-    color: #fff;
+    color: black;
     padding: 20px;
     text-align: center;
   }
@@ -70,6 +70,14 @@ body {
 </head>
 
 <body>
+<header>
+      
+    </header>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/registration"> User Registration</a>
+      <a href="/contactus">Contact</a>
+    </nav>
   <div class="w3-display-container" style="margin-bottom:50px">
   <img src="images/kichwa3.jpg" style="width: 75%">
   <div class="w3-display-bottomleft w3-container w3-amber w3-hover-orange w3-hide-small"
