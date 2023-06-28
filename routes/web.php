@@ -65,6 +65,9 @@ Route::get('/contactus', function(){
 Route::get('/thankyou', function () {
     return view('thankyou');
 });
+Route::get('/thanks2', function () {
+    return view('thanks2');
+});
 Route::get('/packages', function(){
     return view('packages');
 });
