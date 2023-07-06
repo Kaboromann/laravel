@@ -55,9 +55,9 @@ Route::get('/Rentndai',function(){
 Route::get('/vacation',function(){
     return view('vacation');
 });
-Route::get('/pracical',function(){
+/*Route::get('/pracical',function(){
     return view('pracical');
-});
+});*/
 
 Route::get('/contactus', function(){
     return view('contactus');

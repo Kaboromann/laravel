@@ -14,7 +14,7 @@ body {
   
   header {
     background-color: #ffc107;
-    color: black;
+    
     padding: 20px;
     text-align: center;
   }
@@ -74,12 +74,13 @@ body {
       
     </header>
     <nav>
-      <a href="/">Home</a>
-      <a href="/registration"> User Registration</a>
-      <a href="/contactus">Contact</a>
-    </nav>
+  <a href="/" style="color: black;">Home</a>
+  <a href="/registration" style="color: black;">User Registration</a>
+  <a href="/contactus" style="color: black;">Contact</a>
+</nav>
+
   <div class="w3-display-container" style="margin-bottom:50px">
-  <img src="images/kichwa3.jpg" style="width: 75%">
+  <img src="images/kichwa3.jpg" style="width: 100%">
   <div class="w3-display-bottomleft w3-container w3-amber w3-hover-orange w3-hide-small"
    style="bottom:10%;opacity:0.7;width:70%">
   <h2><b>Your travel partner<br>Far and beyond</b></h2>

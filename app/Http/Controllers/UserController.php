@@ -27,7 +27,9 @@ class UserController extends Controller
     $reg_success = $user->save();
 
     if ($reg_success) {
-        return back()->with('success', 'Account created successfully!');
+        
+       // return back()->with('success', 'Account created successfully!');
+        return redirect('/packages');
     } else {
         return back()->with('error', 'Something went wrong!');
     }
